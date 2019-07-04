@@ -12,7 +12,7 @@ public class HelloService {
     @Value("${app.service-url}")
     private  String appServiceUrl;
 
-    //为spring中请求调用的一个模版
+    //为spring中请求调用的一个模版搜索
     @Autowired
     private RestTemplate restTemplate;
 
