@@ -1,0 +1,11 @@
+---
+server:
+  port: 8002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/   #注册中心的地址和端口
+
+spring:
+  application:
+    name: producers   #本项目注册到服务中心的别名
